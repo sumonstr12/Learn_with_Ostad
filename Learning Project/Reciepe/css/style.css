@@ -1,0 +1,202 @@
+
+
+*{
+    background-color: #45454a;
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo .circle img{
+    width: 110px;
+    height: 80px;
+    background-color: #b2b2fd;
+    border-radius: 50px;
+}
+
+.logo .circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    background-color: #b2b2fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.heading-section img{
+    width: 100%;
+    height: 420px;
+}
+
+.heading-section .overlay{
+    position: absolute;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #45454a;
+    opacity: 0.8;
+    width: 100%;
+    height: 420px;
+    
+
+}
+.heading-section .overlay h1{
+    color: #e2e5ed;
+    font-size: 2.7em;
+    font-weight: 500;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.heading-section .overlay p{
+    color: #e2e5ed;
+    font-size: 1.2em;
+    font-weight: 300;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.search-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/* From Uiverse.io by Bodyhc */ 
+.search {
+  display: inline-block;
+  position: relative;
+}
+
+.search input[type="text"] {
+  width: 250px;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search button[type="submit"] {
+  background-color: #4e99e9;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px 25px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: .9s ease;
+}
+
+.search button[type="submit"]:hover {
+  transform: scale(1.1);
+  color: rgb(255, 255, 255);
+  background-color: blue;
+}
+
+.items-card{
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+
+/* From Uiverse.io by alexruix */ 
+.card {
+  width: 190px;
+  height: 254px;
+  padding: .8em;
+  background: #45454a;
+  border-color: #e2e5ed;
+  position: relative;
+  overflow: visible;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ }
+ 
+ .card-img {
+  height: 40%;
+  width: 20%;
+  border-color: #e2e5ed;
+  border-radius: .5rem;
+  transition: .3s ease;
+ }
+ .card-img img {
+  width: 40%;
+  height: 20%;
+  object-fit: cover;
+  border-radius: .5rem;
+ }
+ 
+ .card-info {
+  padding-top: 10%;
+ }
+ 
+ svg {
+  width: 20px;
+  height: 20px;
+ }
+ 
+ .card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+ }
+ 
+ /*Text*/
+ .text-title {
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 1.5;
+ }
+ 
+ .text-body {
+  font-size: .9em;
+  padding-bottom: 10px;
+ }
+ 
+ /*Button*/
+ .card-button {
+  border: 1px solid #252525;
+  display: flex;
+  padding: .3em;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: .3s ease-in-out;
+ }
+ 
+ /*Hover*/
+ .card-img:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+ }
+ 
+ .card-button:hover {
+  border: 1px solid #ffcaa6;
+  background-color: #ffcaa6;
+ }
+ 

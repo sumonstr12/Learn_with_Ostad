@@ -1,0 +1,5 @@
+
+
+button onClick-
+    -> <button onClick={()=>{alert("Text")}}> .... </button>
+    -> this is called inline arrow function, details( arrow function )

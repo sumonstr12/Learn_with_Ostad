@@ -1,0 +1,88 @@
+-- react (single page application)
+
+1-> create react with vite-( npm create vite)
+	-> project name
+	-> framework(react)
+	-> select variant( javascript )
+
+2-> downlaod node modules (npm i)
+3-> run react project (npm run dev)
+4-> create production directory--(dist)  ( npm run build) --(live server e ai folder er sob kisu jai just)
+5-> project structure ---(important !!!)
+	public - image
+	       - video
+	       - audio
+	
+	src - clean main.jsx -- remove (import './index.css')
+	    - empty all app.jsx	
+	    - delete App.css and index.css
+
+	assets - icons
+	       - css
+	       - components	
+	       - pages
+	       - utility
+
+
+6-> delete eslint.config.js
+7-> install bootstrap/tailwind for frondend 
+	bootstrap - npm i bootstrap
+	tailwind - not sure( find out a way )
+
+8-> create components (app.jsx a likte hoi components)
+	-> class components ( now useless)
+	-> functional components *** (RSC) shortcut
+	-> components er extention must be (.jsx) e hbe
+	-> mane ami ja kisu add korbo sob (jsx) er majei mind it..
+
+
+9-> App.jsx e ja ja function likbo tai user dekte pabe
+
+10-> JSX -( JavaScript Xml)  ( atai besi focus korte hbe )
+	-> react er akta boro benfit aikhane direct JS( JavaScript ) Likha jai..-- { } aita use kore
+	-> { } atake muses syntax bole
+	-> single line javascript expression line er jnno muses
+	-> multi line er jnno:
+	-->muses er vitor (IIF function bole jetar return must lagbe)( ar vitore jai likhi 
+		na kno seta html tag er vitor likha lagbe)
+
+		{
+          	   (()=>{
+            			// IIF function er internal portion
+         	   })()
+        	}
+
+	--> IIF function er vitor js er environment er moto kaj kore tai amra 
+	--> akhane jekono kaj korte pari( condition , loops, anything)
+	--> Inline/sorthand js likha system,,atake cpp te 
+	--> loops er khetre setake javascript map kore korte hbe
+
+
+11-> JSX naming convention( jsx er vitor er ja kisu thake ata likhar pattern)
+	-> single parent element must thakte hbe ,mane RSC template er sob thakte hbe
+		--> template: 
+			template: 
+
+			import React from "react";
+
+			const file_name = () => {
+    			   return (
+        		      <div>
+            			 // ja kisu show korate chai
+        		      </div>
+    			   );
+
+			};
+
+			export default file_name;
+
+
+		// file_name er first letter capital letter hobe
+			
+	-> js directly likha jabe
+	-> self-close or close element must thakte hbe( jmn <br> na diye <br/> dite hbe akoi vabe <img/>)
+	-> attributes in camel case
+
+	
+
+

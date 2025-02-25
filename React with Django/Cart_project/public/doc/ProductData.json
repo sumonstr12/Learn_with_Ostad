@@ -1,0 +1,178 @@
+
+[
+    {
+        "id": 1,
+        "title": "Smartphone X1",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "A powerful smartphone with great performance.",
+        "price": 15000
+    },
+    {
+        "id": 2,
+        "title": "Laptop Pro 15",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "High-performance laptop for professionals.",
+        "price": 85000
+    },
+    {
+        "id": 3,
+        "title": "Wireless Headphones",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Noise-canceling wireless headphones.",
+        "price": 5000
+    },
+    {
+        "id": 4,
+        "title": "Smartwatch Z3",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Stay connected with a stylish smartwatch.",
+        "price": 7000
+    },
+    {
+        "id": 5,
+        "title": "Gaming Mouse",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Precision gaming mouse with RGB lighting.",
+        "price": 2500
+    },
+    {
+        "id": 6,
+        "title": "Mechanical Keyboard",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Tactile feedback and durable build.",
+        "price": 4000
+    },
+    {
+        "id": 7,
+        "title": "Portable Speaker",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Bluetooth speaker with deep bass.",
+        "price": 3500
+    },
+    {
+        "id": 8,
+        "title": "Smart TV 42\"",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Enjoy 4K Ultra HD streaming.",
+        "price": 55000
+    },
+    {
+        "id": 9,
+        "title": "Gaming Chair",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Ergonomic chair for long gaming sessions.",
+        "price": 15000
+    },
+    {
+        "id": 10,
+        "title": "External Hard Drive",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "1TB storage for all your needs.",
+        "price": 6000
+    },
+    {
+        "id": 11,
+        "title": "Wireless Earbuds",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Compact and powerful sound experience.",
+        "price": 3000
+    },
+    {
+        "id": 12,
+        "title": "DSLR Camera",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Capture stunning high-quality images.",
+        "price": 65000
+    },
+    {
+        "id": 13,
+        "title": "Tablet 10\"",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Portable tablet for work and entertainment.",
+        "price": 25000
+    },
+    {
+        "id": 14,
+        "title": "Fitness Tracker",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Track your fitness goals efficiently.",
+        "price": 5000
+    },
+    {
+        "id": 15,
+        "title": "Home Security Camera",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Monitor your home remotely.",
+        "price": 8000
+    },
+    {
+        "id": 16,
+        "title": "Electric Kettle",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Fast boiling with auto shut-off.",
+        "price": 2500
+    },
+    {
+        "id": 17,
+        "title": "Cordless Vacuum Cleaner",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Powerful and easy to use.",
+        "price": 12000
+    },
+    {
+        "id": 18,
+        "title": "Bluetooth Soundbar",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Enhanced sound quality for TV.",
+        "price": 10000
+    },
+    {
+        "id": 19,
+        "title": "Power Bank 20000mAh",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Charge your devices on the go.",
+        "price": 4000
+    },
+    {
+        "id": 20,
+        "title": "Air Purifier",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Breathe fresh and clean air.",
+        "price": 15000
+    },
+    {
+        "id": 21,
+        "title": "Wireless Router",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "High-speed internet coverage.",
+        "price": 5000
+    },
+    {
+        "id": 22,
+        "title": "Electric Toothbrush",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Advanced cleaning technology.",
+        "price": 4000
+    },
+    {
+        "id": 23,
+        "title": "4K Drone Camera",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Capture aerial shots with precision.",
+        "price": 75000
+    },
+    {
+        "id": 24,
+        "title": "Smart Door Lock",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Secure your home with smart technology.",
+        "price": 18000
+    },
+    {
+        "id": 25,
+        "title": "Mini Projector",
+        "img": "/image/Cricket-Bat.jpeg",
+        "sort_des": "Turn any space into a home theater.",
+        "price": 12000
+    }
+]

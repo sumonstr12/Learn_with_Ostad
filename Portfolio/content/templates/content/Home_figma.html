@@ -1,0 +1,37 @@
+
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    {% tailwind_css %}
+  </head>
+  <body class="bg-[#1e2127] flex justify-center items-center min-h-screen">
+    <div class="h-[342px] p-8 bg-[#282c33] flex flex-col justify-center items-center gap-4">
+        <!-- Name & Email Fields -->
+        <div class="w-[505px] flex justify-start items-start gap-4">
+            <input type="text" placeholder="Enter your name"
+                class="grow shrink basis-0 h-[37px] p-2 border border-[#abb2bf] text-[#abb2bf] text-base font-['Fira Code'] bg-transparent focus:outline-none">
+            
+            <input type="email" placeholder="Enter your email"
+                class="grow shrink basis-0 h-[37px] p-2 border border-[#abb2bf] text-[#abb2bf] text-base font-['Fira Code'] bg-transparent focus:outline-none">
+        </div>
+
+        <!-- Title Field -->
+        <input type="text" placeholder="Enter title"
+            class="w-[505px] p-2 border border-[#abb2bf] text-[#abb2bf] text-base font-['Fira Code'] bg-transparent focus:outline-none">
+
+        <!-- Message Field -->
+        <textarea placeholder="Enter your message"
+            class="w-[505px] h-[119px] p-2 border border-[#abb2bf] text-[#abb2bf] text-base font-['Fira Code'] bg-transparent focus:outline-none resize-none"></textarea>
+
+        <!-- Send Button -->
+        <button class="px-4 py-2 border border-[#c778dd] text-white text-base font-medium font-['Fira Code'] hover:bg-[#c778dd] transition">
+            Send
+        </button>
+    </div>
+</body>
+
+</html>

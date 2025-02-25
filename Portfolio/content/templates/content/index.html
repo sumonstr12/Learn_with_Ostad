@@ -1,0 +1,48 @@
+{% load static tailwind_tags %}
+
+<html>
+    <head>
+        <title>Portfolio</title>
+        {% tailwind_css %}
+    </head>
+
+    <body class="text-white"
+    style="background: linear-gradient(to right, rgba(255, 0, 150, 0.4), rgba(0, 204, 255, 0.4)), url('your-image-url.jpg'); background-size: cover;">
+        <div class=" hidden md:flex space-x-6 navbar bg-gradient-to-r from-rgba(255, 0, 150, 0.4) to-rgba(0, 204, 255, 0.4) text-white p-4">
+            <div class="navbar bg-gradient-to-r from-rgba(255, 0, 150, 0.4) to-rgba(0, 204, 255, 0.4)">
+                <div class="flex-1 items-center justify-center">
+                  <a class="btn btn-ghost text-xl">daisyUI</a>
+                </div>
+                <div class="flex-none gap-2">
+                  <div class="form-control">
+                    <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+                  </div>
+                  <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                      <div class="w-10 rounded-full">
+                        <img
+                          alt="Tailwind CSS Navbar component"
+                          src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                      </div>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li>
+                        <a class="justify-between">
+                          Profile
+                          <span class="badge">New</span>
+                        </a>
+                      </li>
+                      <li><a>Settings</a></li>
+                      <li><a>Logout</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="">
+            <h1 class="animate__animated animate__bounce">An animated element</h1>
+        </div>
+    </body>
+</html>

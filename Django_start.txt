@@ -1,0 +1,15 @@
+
+
+installation process:
+
+1. pipenv shell
+2. pipenv install django
+3. django-admin startproject project_name .
+	( . dile oi folder ei project create hoi)
+4. python manage.py migrate (aitaa dile sate sate database start hbe)
+5. python manage.py createsuperuser
+6. pyhton manage.py runserver
+
+
+-> creating app folder:
+ 	--> python manage.py startapp app_folder_name
